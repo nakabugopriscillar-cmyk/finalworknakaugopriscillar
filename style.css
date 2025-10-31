@@ -1,0 +1,264 @@
+*{
+    margin:0;
+    padding: 0 ;
+    box-sizing: border-box;
+    background:rgb(214, 204, 204);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    width: 100%;
+}
+nav{
+    border: 1px solid grey;
+    padding: 20px;
+    background: rgb(14, 202, 223);
+}
+nav a{
+    display:inline;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-left: 80px; 
+    margin-top: 15px;
+    background: transparent;
+}
+.logo{
+    width: 40%;
+}
+.logo img{
+    width: 40%;
+    margin-top: 30px;
+}
+h2{
+    text-align:left;
+}
+.story p{
+    padding:10px 20px 0 0;
+	font-size: 18px;
+    text-align: justify;
+    margin-bottom: 50px;
+    margin-bottom: 5px;
+
+    
+}
+.view{
+width: 40px;
+object-fit:fill;
+height: 10%;
+margin-top: 40px;
+
+}
+h1{
+    text-align: center;
+	padding: 20px 0;
+	font-size: 50px;
+}
+
+.form input{
+    width: 80%;
+    display: block;
+    margin: 0;
+    padding: 6px;
+    padding-top: 6px;
+    border: 1px solid gray;
+    font-size: medium;
+}
+
+ form button{
+    background: rgb(21, 183, 96);
+    color: WHITE;
+    padding: 15px 10px;
+    font-size:15px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 10%;
+    margin-left: 30%;
+}
+.overview,.overview p,.overview p a{
+    background: gray;
+    color:white;
+    padding: 10px 0;
+    text-align: center;
+
+}
+.logo1 img{
+    width:100px;
+    margin-top: 10px;
+}
+.background img {
+    width: 20%;
+    margin-top: 10px;
+}
+h3{
+    padding: 10px;
+    margin-left: 10px;
+} 
+p{
+    margin-left: 10px;
+}
+.believe{
+    margin: 0;
+}
+.abt p ,.abt a ,.abt h3{
+    background: gray;
+    color:white;
+    text-align: center;
+    padding:20px;
+    
+
+}
+.more img{
+    width: 100%;
+    height: 500px;
+    margin-top: 5%;
+}
+.domesticv video{
+    width: 100%;
+    margin-top: 10px;
+
+}
+.balance p{
+    background: gray;
+}
+.social img{
+    width: 20%;
+
+}
+.logo3 img{
+    width:20%;
+    margin-left: 40%;
+
+    }
+.img2 img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.contact h2{
+    text-align: center;
+    text-shadow: 3cm;
+    font-weight: 200;
+    margin-bottom: 20px;
+
+}
+.newf{
+    display: flex;
+    width: 90%;
+}
+.newf div img{
+    width:90%;
+
+}
+.newf div p{
+    color: rgb(196, 15, 15)
+}
+.call img{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.call p{
+     margin-left: 30px;
+}
+.chat img,.text img{
+    margin-left: 70px;
+    margin-top: 30px;
+    height: 70%;
+}
+.chat p ,.text p,.text h2{
+    margin-left: 70px;
+}
+.measures{
+    padding: 10px;
+}
+.measures div{
+    border: 1px solid grey;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+.stop img{
+    width: 100%;
+    height: 500px;
+}
+.measures H4{
+    font-weight: bold;
+    text-decoration:underline;
+    text-align:left;
+    background: transparent;
+
+}
+.measures p{
+    padding-left: 10px;
+    background: transparent;
+}
+.individual{
+    color: black;
+    padding: 10%;
+}
+.family{
+    margin-left: 70px;
+}
+.community{
+    margin-left: 120px;
+
+}
+.last p,.last h3{
+background: gray;
+color: black;
+text-align: center;
+}
+.individual ul,.family ul,.community ul{
+    list-style:square;
+    margin-left: 20px;
+    background: rgb(201, 201, 234);
+}
+.individual ,.family ,.community {
+  background: rgb(201, 201, 234);  
+
+}
+.individual li ,.family li ,.community li{
+background: rgb(201, 201, 234);
+}
+
+.individual p,.family p,.community p{
+    background: rgb(201, 201, 234);
+
+}
+@media(max-width:570px) {
+nav a{
+    width: 100px;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+.text img{
+    margin-right: 60px;
+    margin-top: 30px;
+    height: 20%;
+}
+.chat img{
+    height: 20%;
+    width: 60%;
+
+}
+.abt p , .abt h3{
+    padding: 0;
+}
+.view video{
+    width: 600px;
+}
+form button{
+    padding: 10px 8px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 30%;
+    margin-left: 30%;
+}
+.form input{
+    margin-left:20px;
+    margin-top: 10px;
+}
+    
+}
+
